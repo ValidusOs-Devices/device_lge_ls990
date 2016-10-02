@@ -6,7 +6,7 @@ $(call inherit-product, vendor/tesla/config/common_full_phone.mk)
 # Enhanced NFC
 $(call inherit-product, vendor/tesla/config/nfc_enhanced.mk)
 
-PRODUCT_NAME := telsa_ls990
+PRODUCT_NAME := tesla_ls990
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE="g3" \
