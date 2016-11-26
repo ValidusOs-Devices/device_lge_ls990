@@ -7,7 +7,7 @@
   {
     "repository": "GZR-Kernels/fusebox_kernel_lge_g3",
     "target_path": "kernel/lge/g3",
-    "branch": "cm-14.0"
+    "branch": "n7.1"
   },
  {
     "repository": "TheMuppets/proprietary_vendor_lge",
