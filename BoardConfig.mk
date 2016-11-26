@@ -41,6 +41,7 @@ TARGET_RECOVERY_FSTAB := device/lge/ls990/rootdir/etc/fstab.g3
 
 # NFC
 BOARD_NFC_CHIPSET := pn544
+TARGET_NEEDS_PLATFORM_TEXT_RELOCATIONS := true
 
 # Wifi
 BOARD_WLAN_DEVICE := bcmdhd
