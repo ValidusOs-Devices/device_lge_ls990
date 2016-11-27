@@ -26,7 +26,7 @@ BOARD_HAVE_BLUETOOTH_BCM := true
 
 # Kernel
 TARGET_KERNEL_CONFIG := fusebox_ls990_defconfig
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.x/bin
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x/bin
 TARGET_REQUIRES_BUMP := true
 
 # Partitions
