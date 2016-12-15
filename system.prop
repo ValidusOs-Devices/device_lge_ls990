@@ -16,3 +16,6 @@ persist.radio.no_wait_for_card=1
 keyguard.no_require_sim=true
 telephony.sms.pseudo_multipart=1
 DEVICE_PROVISIONED=1
+
+# Google assistant
+ro.opa.eligible_device=true
