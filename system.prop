@@ -10,3 +10,11 @@ ro.telephony.ril_class=LgeLteRIL
 
 # Google assistant
 ro.opa.eligible_device=true
+
+# Hardware info
+ro.device.chipset
+ro.device.cpu
+ro.device.gpu
+ro.device.front_cam
+ro.device.rear_cam
+ro.device.screen_re
