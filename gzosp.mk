@@ -1,9 +1,9 @@
 $(call inherit-product, device/lge/ls990/full_ls990.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/gzosp/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_ls990
+PRODUCT_NAME := gzosp_ls990
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE="g3" \
