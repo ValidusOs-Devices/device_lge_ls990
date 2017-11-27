@@ -1,11 +1,12 @@
 $(call inherit-product, device/lge/ls990/full_ls990.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/gzosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/validus/config/common_full_phone.mk)
 
-PRODUCT_NAME := gzosp_ls990
+PRODUCT_NAME := validus_ls990
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
+    DEVICE_MAINTAINERS="Adam Ovadia (oadam11)" \
     PRODUCT_DEVICE="g3" \
     PRODUCT_NAME="g3_spr_us" \
     BUILD_FINGERPRINT="lge/g3_spr_us/g3:4.4.2/KVT49L.LS990ZV4/LS990ZV4.1403169216:user/release-keys" \
